@@ -11,16 +11,16 @@ recommended.
 1. Allow command-line switches to specify a host and port.
 2. Present a simple response to the user.                               -40 points
 3. Allow multiple ports to be specified                                 -10 points
-        Single port
-        Comma separated
-        Range
+        -Single port
+        -Comma separated
+        -Range
 4. Use of more than one protocol
-    TCP or UDP (to complement the one already provided)                 –10 points
-    ICMP                                                                -5 points
+    -TCP or UDP (to complement the one already provided)                 –10 points
+    -ICMP                                                                -5 points
 5. Allow more than one host to be scanned
-    Allowing different ways to specify hosts (CIDR Notation)            –5 points
-    Reading a text file of host IPs                                     -5 points
-    Comma separated                                                    -2 points
+    -Allowing different ways to specify hosts (CIDR Notation)            –5 points
+    -Reading a text file of host IPs                                     -5 points
+    -Comma separated                                                    -2 points
 
 # Flags
     -dst_ip         Destination IP address for remote scan.

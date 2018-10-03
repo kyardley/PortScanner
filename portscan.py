@@ -187,7 +187,7 @@ while (arguments >= position):
 
     position += 1
 
-# Read commandline switches
+# Itterate through hosts given
 for host in dst_ip:
 
     print ("-" * 60)

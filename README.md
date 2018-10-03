@@ -44,18 +44,18 @@ recommended.
     -ping           Ping specified host
 
 # Examples of Common Tasks:
-TCP Scan:
+## TCP Scan:
     py portscan.py -dst_ip 192.168.207.42 -p 88 -sT
     py portscan.py -dst_ip 192.168.207.42 -p 88-92 -sT
     py portscan.py -dst_ip 192.168.207.42 -p 88,90,23 -sT
-UDP Scan
+## UDP Scan
     py portscan.py -dst_ip 192.168.207.42 -p 88 -sU
     py portscan.py -dst_ip 192.168.207.42 -p 88-90 -sU
     py portscan.py -dst_ip 192.168.207.42 -p 88,90,23 -sU
-Ping Sweep Subnet
+## Ping Sweep Subnet
     py portscan.py -dst_ip 192.168.207.40/30 -ping
-Ping Sweep hosts from a txt file
+## Ping Sweep hosts from a txt file
     py portscan.py -f iplist.txt -ping
-Ping Sweep Comma Separated List
+## Ping Sweep Comma Separated List
     py portscan.py -dst_ip 192.168.207.42,192.168.207.101,192.168.207.49 -ping
 
